@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+h1{
+    color: black;
+}
+h2, h3{
+    text-align: center;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #261f2c65;
+}
+
+.border{
+    color: #E0144C;
+}
+
+.row{
+    background-color: #FF97C1;
+}
+
+.img-carr{
+    width: 100%;
+}
+#imgs div img{
+    width: 50%;
+}
+.gigante{
+    font-size: 90px;
+}
+.btn-primary{
+    background-color: #9A1663;
+    border-color: #E0144C;
+}
+.btn-primary:hover{
+    background-color: #e6148e;
+    border-color: #ff0044;
+}
+#img-vers div img{
+    width: 60%;
+}
+
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+
+    /* Estilos para dispositivos con ancho máximo de 767px */
+    body {
+        font-size: 16px;
+    }
+    .img-carr{
+        width: 300px;
+    }
+    .gigante{
+        font-size: 40px;
+    }
+}
+
+/* Estilos para tabletas */
+@media only screen and (min-width: 768px) {
+
+    /* Estilos para dispositivos con ancho mínimo de 768px */
+    body {
+        font-size: 18px;
+    }
+    .img-carr{
+        width: 400px;
+    }
+}
+
+/* Estilos para pantallas pequeñas de escritorio */
+@media only screen and (min-width: 1024px){
+
+    /* Estilos para dispositivos con ancho mínimo de 1024px */
+    body {
+        font-size: 20px;
+    }
+    .img-carr{
+        width: 500px;
+    }
+    
+}
+
+/* Estilos para pantallas grandes de escritorio */
+@media only screen and (min-width: 1280px) {
+
+    /* Estilos para dispositivos con ancho mínimo de 1280px */
+    body {
+        font-size: 22px;
+    }
+    
+}
